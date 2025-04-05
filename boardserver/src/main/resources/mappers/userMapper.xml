@@ -75,5 +75,7 @@
         SET passWord = #{password}
         WHERE userId = #{userId}
     </update>
+    <insert id="register">
 
+    </insert>
 </mapper>
