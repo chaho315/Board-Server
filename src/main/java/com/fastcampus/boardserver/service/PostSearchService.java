@@ -8,4 +8,5 @@ import java.util.List;
 
 public interface PostSearchService {
     List<PostDTO> getProducts(PostSearchRequest postSearchRequest);
+    List<PostDTO> getPostByTag(String tagName);
 }
